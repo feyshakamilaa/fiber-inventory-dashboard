@@ -1,34 +1,44 @@
 # Fiber Network Inventory Monitoring
 
-**An Interactive Dashboard for Network Inventory & Data Quality Analytics**
+### Network Inventory & Data Quality Analytics — PT Telkom Akses
 
-Academic Prototype 
+Dashboard interaktif berbasis web yang dikembangkan sebagai prototipe akademik untuk mendukung pengelolaan, pemantauan, dan analisis data inventory infrastruktur jaringan fiber optik.
 
-## Overview
+Proyek ini mengimplementasikan kompetensi Sains Data dalam pengolahan data, *Data Analytics*, *Data Quality Analytics*, serta *Business Intelligence* untuk menghasilkan informasi yang terstruktur, informatif, dan mudah dipahami.
 
-Fiber Network Inventory Monitoring merupakan prototipe dashboard interaktif yang dikembangkan sebagai bagian dari persiapan Kerja Praktik pada Unit SDI PT Telkom Akses Branch Tarakan.
+## Live Dashboard
 
-Proyek ini berfokus pada penerapan **Data Analytics, Data Quality Analytics, dan Business Intelligence** untuk menyajikan informasi inventory infrastruktur jaringan fiber optik secara terstruktur, informatif, dan mudah dipahami.
+Akses dashboard melalui tautan berikut:
 
-## Key Features
+**https://feyshakamilaa.github.io/fiber-inventory-dashboard/**
 
-- **Overview Dashboard** — Ringkasan inventory perangkat, kapasitas, dan utilisasi port.
-- **Network Inventory Analytics** — Visualisasi distribusi perangkat dan analisis kapasitas jaringan.
-- **Data Quality Monitoring** — Pemeriksaan kelengkapan, duplikasi, dan validitas data.
-- **Data Explorer** — Eksplorasi data melalui tabel interaktif dan fitur penyaringan.
+## Fitur Utama
 
-## Technology
+- **Overview** — Ringkasan inventory perangkat, kapasitas, dan utilisasi port jaringan.
+- **Network Inventory** — Analisis distribusi perangkat, kapasitas, penggunaan port, dan status perangkat jaringan.
+- **Data Quality** — Pemeriksaan kelengkapan, duplikasi, konsistensi, dan validitas data inventory.
+- **Data Explorer** — Penelusuran data melalui tabel interaktif, pencarian, penyaringan, dan ekspor data.
 
-HTML, CSS, JavaScript, Chart.js, dan Adminator Dashboard Template.
+## Teknologi
 
-## Data Disclaimer
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+- Adminator Dashboard Template
 
-Dashboard ini menggunakan **data sintetis untuk keperluan demonstrasi akademik**. Seluruh informasi yang ditampilkan tidak merepresentasikan data, kondisi operasional, maupun sistem internal PT Telkom Akses.
+## Tentang Proyek
 
-## Copyright & Usage
+Proyek ini dikembangkan sebagai portofolio akademik sekaligus prototipe pendukung pengajuan Kerja Praktik pada Unit SDI PT Telkom Akses Branch Tarakan.
 
-© 2026 Feysha Kamila Pracilya.
+Seluruh data yang digunakan merupakan data simulasi untuk keperluan pembelajaran dan pengembangan kompetensi Sains Data dalam bidang pengelolaan inventory serta analisis kualitas data jaringan telekomunikasi.
 
-Pengembangan, penyesuaian, analisis, serta konten orisinal dalam proyek ini merupakan bagian dari portofolio akademik pengembang. Penggunaan ulang atau distribusi bagian orisinal memerlukan izin dari pengembang.
+## Disclaimer
 
-Komponen dan pustaka pihak ketiga tetap mengikuti ketentuan lisensi masing-masing.
+Dashboard ini merupakan proyek akademik independen dan tidak merepresentasikan data, kondisi operasional, maupun sistem resmi PT Telkom Akses.
+
+---
+
+© 2026 Feysha Kamila Pracilya. All rights reserved.
+
+Penggunaan, penggandaan, modifikasi, dan distribusi bagian orisinal proyek ini memerlukan izin dari pengembang, dengan tetap memperhatikan lisensi komponen dan pustaka pihak ketiga yang digunakan.
