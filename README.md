@@ -1,21 +1,34 @@
-# Fiber Network Inventory Monitoring — Prototype
-Unit SDI — PT Telkom Akses Branch Tarakan | Academic Prototype — Data Science, Telkom University Surabaya.
+# Fiber Network Inventory Monitoring
 
-Dashboard ini menggunakan data simulasi untuk keperluan akademik dan tidak merepresentasikan data aktual PT Telkom Akses.
+**An Interactive Dashboard for Network Inventory & Data Quality Analytics**
 
-## Menjalankan
-- Lokal: buka `index.html` langsung di browser (tanpa server/backend).
-- GitHub Pages: unggah seluruh isi folder ke repositori, lalu Settings → Pages → Deploy from branch (root).
+Academic Prototype 
 
-## Struktur
-- `index.html` — halaman tunggal, 4 menu (Overview, Network Inventory, Data Quality, Data Explorer)
-- `assets/adminator.css` — stylesheet template Adminator; `assets/custom.css` — penyesuaian
-- `assets/chart.umd.js` — Chart.js 4.4.1 (lokal, tanpa CDN); `assets/app.js` — logika
-- `assets/data.js` — salinan `data/inventory_simulasi.csv` agar jalan dari `file://`
-- `data/` — `inventory_simulasi.csv`, `data_dictionary.csv`
+## Overview
 
-## Catatan perhitungan
-- Semua angka dihitung di `assets/app.js` dari dataset; filter wilayah/jenis berlaku di semua halaman.
-- Utilisasi port: hanya ODP yang lolos seluruh validasi (cocok dengan KPI di dataset_sdi_simulasi.xlsx).
-- Port kosong pada ODC tidak dihitung sebagai masalah.
-- Jika CSV diganti: salin isinya ke `assets/data.js` (variabel `INVENTORY_CSV`).
+Fiber Network Inventory Monitoring merupakan prototipe dashboard interaktif yang dikembangkan sebagai bagian dari persiapan Kerja Praktik pada Unit SDI PT Telkom Akses Branch Tarakan.
+
+Proyek ini berfokus pada penerapan **Data Analytics, Data Quality Analytics, dan Business Intelligence** untuk menyajikan informasi inventory infrastruktur jaringan fiber optik secara terstruktur, informatif, dan mudah dipahami.
+
+## Key Features
+
+- **Overview Dashboard** — Ringkasan inventory perangkat, kapasitas, dan utilisasi port.
+- **Network Inventory Analytics** — Visualisasi distribusi perangkat dan analisis kapasitas jaringan.
+- **Data Quality Monitoring** — Pemeriksaan kelengkapan, duplikasi, dan validitas data.
+- **Data Explorer** — Eksplorasi data melalui tabel interaktif dan fitur penyaringan.
+
+## Technology
+
+HTML, CSS, JavaScript, Chart.js, dan Adminator Dashboard Template.
+
+## Data Disclaimer
+
+Dashboard ini menggunakan **data sintetis untuk keperluan demonstrasi akademik**. Seluruh informasi yang ditampilkan tidak merepresentasikan data, kondisi operasional, maupun sistem internal PT Telkom Akses.
+
+## Copyright & Usage
+
+© 2026 Feysha Kamila Pracilya.
+
+Pengembangan, penyesuaian, analisis, serta konten orisinal dalam proyek ini merupakan bagian dari portofolio akademik pengembang. Penggunaan ulang atau distribusi bagian orisinal memerlukan izin dari pengembang.
+
+Komponen dan pustaka pihak ketiga tetap mengikuti ketentuan lisensi masing-masing.
