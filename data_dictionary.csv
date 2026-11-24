@@ -1,0 +1,11 @@
+﻿column_name,data_type,required,description,validation_rule,notes
+record_id,Teks,"Ya, semua jenis",ID unik baris/catatan pada dataset sintetis.,Format REC-SIM-####; unik dan tidak kosong,Tidak ada data identitas nyata
+asset_id,Teks,"Ya, semua jenis",Identitas contoh aset ODP atau ODC.,"Tidak kosong, unik per snapshot; prefix ODP-SIM-/ODC-SIM-",Duplikat sengaja disisipkan untuk latihan
+device_type,Kategori,"Ya, semua jenis",Kategori perangkat dalam model simulasi.,ODP / ODC,ODP-X merupakan nilai contoh yang invalid
+area,Kategori,"Ya, semua jenis",Wilayah kecamatan administratif Tarakan.,"Tarakan Barat, Tarakan Tengah, Tarakan Timur, Tarakan Utara",Bukan lokasi/koordinat perangkat nyata
+asset_status,Kategori,"Ya, semua jenis",Status aset dalam skenario simulasi.,Active / Maintenance / Inactive / Planned,"Status simulasi, tidak mengukur availability jaringan real-time"
+total_ports,Bilangan bulat,Hanya ODP,Kapasitas port pada ODP untuk simulasi.,Bilangan bulat >0; kosong untuk ODC,Bukan ukuran kapasitas core fiber ODC
+used_ports,Bilangan bulat,Hanya ODP,Jumlah port ODP yang digunakan dalam simulasi.,0 <= used_ports <= total_ports; kosong untuk ODC,Jangan hitung port jika kapasitas tidak valid
+parent_odc_id,Teks,Hanya ODP,Referensi aset ODC yang menjadi induk ODP.,Harus cocok dengan asset_id ODC tersedia; kosong untuk ODC,"Relasi ilustratif, bukan topologi jaringan sesungguhnya"
+last_updated,Tanggal ISO,"Ya, semua jenis",Tanggal terakhir pembaruan catatan simulasi.,"YYYY-MM-DD, tidak boleh tanggal masa depan",Bukan dataset historis perubahan jaringan
+project_id,Teks,Tidak wajib,Kode proyek sintetis untuk mengelompokkan aset.,PRJ-SIM-### atau kosong,Tidak mewakili proyek internal PT Telkom Akses
