@@ -40,5 +40,3 @@ Dashboard ini merupakan proyek akademik independen dan tidak merepresentasikan d
 ---
 
 © 2026 Feysha Kamila Pracilya. All rights reserved.
-
-Penggunaan, penggandaan, modifikasi, dan distribusi bagian orisinal proyek ini memerlukan izin dari pengembang, dengan tetap memperhatikan lisensi komponen dan pustaka pihak ketiga yang digunakan.
